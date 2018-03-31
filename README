@@ -1,0 +1,10 @@
+A simple dice rolling bot made as an excercise to learn botbuilder-js
+Bot is built with the assumption you are in direct chat with it and expect a response to every input, as opposed to listening to a channel.
+
+
+setup
+npm install
+
+commands
+will detect 'roll xdy' in any command as well as whenever 'roll' is used.
+If 'roll' is used, it will prompt the user for an amount of dice as well the value of those dice.
